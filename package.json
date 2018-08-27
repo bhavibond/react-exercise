@@ -1,0 +1,27 @@
+{
+  "name": "react_demo",
+  "version": "1.0.0",
+  "description": "A demo SPA ecommerce application with react and next js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "next build && next export",
+    "start": "next"
+  },
+  "keywords": [
+    "react",
+    "demo",
+    "sample-next"
+  ],
+  "author": "Bhavanishankar Ravindra",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  }
+}
